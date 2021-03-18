@@ -3,8 +3,6 @@ import styles from '../styles/Home.module.scss'
 import Post from '../components/Post';
 import PostForm from '../components/PostForm';
 
-
-
 export default function Home({ posts }) {
   return (
     <div className={styles.container}>
